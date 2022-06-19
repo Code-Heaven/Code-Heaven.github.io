@@ -1,0 +1,2117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Sarasavi Bookshop
+    </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="csrf-token" content="Tvx24jkaqIUCdjPVIG3EiID9EqVlnImahvgBbiNF">
+    <meta http-equiv="content-language" content="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176590692-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-176590692-1');
+        gtag('config', 'AW-945344738');
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+   
+    <link rel="stylesheet" href="themes\velocity\assets\css\velocity.css"/>
+    <link rel="stylesheet" href= "themes\velocity\assets\css\bootstrap.min.css"/>
+
+
+    <link rel="icon" sizes="16x16" href="storage/channel/1/CvsIh3bNWhsl4lJF2npfnMeqitp9OuadboKTjgGT.png" />
+
+
+    <meta name="title" content="Sarasavi Bookshop" />
+
+    <meta name="description" content="Sarasavi online bookstore is website for  an extensive collection of books, stationery and magazines in Sri Lanka" />
+
+    <meta name="keywords" content="books sri lanka, sarasavi bookshop, buy books sri lanka, online bookstore, buying books" />
+
+    <meta name="description" content="" />
+
+    <style type="text/css">
+        .product-price span:first-child,
+        .product-price span:last-child {
+            font-size: 18px;
+            font-weight: 600;
+        }
+    </style>
+
+
+
+    <style>
+    </style>
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '403854584030806');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+ <img height="1" width="1" 
+src="https://www.facebook.com/tr?id=403854584030806&ev=PageView
+&noscript=1"/>
+</noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <!-- Start Alexa Certify Javascript -->
+    <script type="text/javascript">
+        _atrk_opts = {
+            atrk_acct: "t74cx1EW4m20FK",
+            domain: "sarasavi.lk",
+            dynamic: true
+        };
+        (function() {
+            var as = document.createElement('script');
+            as.type = 'text/javascript';
+            as.async = true;
+            as.src = "https://certify-js.alexametrics.com/atrk.js";
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(as, s);
+        })();
+    </script>
+    <noscript>
+    <img src="https://certify.alexametrics.com/atrk.gif?account=t74cx1EW4m20FK" style="display:none" height="1" width="1" alt="alexa" /></noscript>
+    <!-- End Alexa Certify Javascript -->
+</head>
+
+<body>
+
+
+
+    <div id="app">
+        <product-quick-view v-if="$root.quickView"></product-quick-view>
+
+        <div class="main-container-wrapper">
+
+            <nav id="top">
+                <div class="col-sm-6">
+                    <div class="pull-left">
+                        <div class="dropdown">
+
+
+                            <div class="locale-icon">
+                                <img src="https://www.sarasavi.lk/themes/velocity/assets/images/flags/en.png" alt="sri lanka flag" width="20" height="20" />
+                            </div>
+
+                            <select class="btn btn-link dropdown-toggle control locale-switcher styled-select" onchange="window.location.href = this.value" aria-label="Locale" disabled="disabled">
+
+                                                            <option value="?locale=en" selected>English</option>
+                                                </select>
+
+                            <div class="select-icon-container">
+                                <span class="select-icon rango-arrow-down"></span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                </div>
+
+                <div class="col-sm-6">
+                    <login-header></login-header>
+
+
+
+                </div>
+            </nav>
+
+
+            <header class="sticky-header">
+                <div class="row remove-padding-margin velocity-divide-page">
+                    <div class="col-3">
+                        <logo-component add-class="navbar-brand"></logo-component>
+                    </div>
+                    <div class="col">
+                        <searchbar-component></searchbar-component>
+                    </div>
+                </div>
+            </header>
+
+
+
+
+            <div class="main-content-wrapper col-12 no-padding">
+
+                <content-header url="https://www.sarasavi.lk" :header-content="[]" heading="Shop by Category" category-count="9"></content-header>
+
+                <div class="">
+                    <div class="row col-12 remove-padding-margin">
+                        <sidebar-component main-sidebar=true id="sidebar-level-0" url="https://www.sarasavi.lk" category-count="9" add-class="category-list-container pt10">
+                        </sidebar-component>
+
+                        <div class="col-12 no-padding content" id="home-right-bar-container">
+
+                            <div class="container-right row no-margin col-12 no-padding">
+
+
+
+                                <slider-component direction="ltr"></slider-component>
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+
+
+
+
+                <div class="full-content-wrapper">
+
+
+                    <p>
+                        <new-products></new-products>
+
+                    </p>
+                    <p>
+                        <featured-products></featured-products>
+
+                    </p>
+                    <p>
+                        <bestsellers language="en" title="English Best Sellers"></bestsellers>
+
+                    </p>
+                    <p>
+                        <bestsellers language="si" title="සිංහල Best Sellers"></bestsellers>
+                    </p>
+                    <h1>New Releases| අලුත් පොත්</h1>
+                    <p></p>
+                    <p></p>
+                    <p>
+                        <category-products view-all="https://www.sarasavi.lk/categorysearch?category=243" title="නවකතා" category-id="243"></category-products>
+                        <category-products view-all="https://www.sarasavi.lk/categorysearch?category=244" title="කෙටිකතා" category-id="244"></category-products>
+                        <category-products view-all="https://www.sarasavi.lk/categorysearch?category=245" title="පරිවර්තන" category-id="245"></category-products>
+                        <category-products view-all="https://www.sarasavi.lk/categorysearch?category=266" title="ළමා" category-id="266"></category-products>
+                        <category-products view-all="https://www.sarasavi.lk/categorysearch?category=164" title="FICTION" category-id="164"></category-products>
+                        <category-products view-all="https://www.sarasavi.lk/categorysearch?category=1023" title="Gift Voucher" category-id="1023"></category-products>
+
+                    </p>
+
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+        <!--pop modal-->
+        <div class="modal-parent" id="loader" style="top: 0" v-show="showPageLoader">
+            <overlay-loader :is-open="true"></overlay-loader>
+        </div>
+    </div>
+
+    <!-- below footer -->
+
+
+    <div class="footer">
+        <div class="footer-content">
+
+            <div class="newsletter-subscription">
+                <div class="newsletter-wrapper row col-12">
+                    <div class="social-icons col-lg-6"><a href="https://webkul.com" target="_blank" class="unset" rel="noopener noreferrer"><i class="fs24 within-circle rango-facebook" title="facebook"></i> </a> <a href="https://webkul.com" target="_blank" class="unset" rel="noopener noreferrer"><i class="fs24 within-circle rango-twitter" title="twitter"></i> </a>                        <a href="https://webkul.com" target="_blank" class="unset" rel="noopener noreferrer"><i class="fs24 within-circle rango-linked-in" title="linkedin"></i> </a> <a href="https://webkul.com" target="_blank" class="unset" rel="noopener noreferrer"><i class="fs24 within-circle rango-pintrest" title="Pinterest"></i> </a>                        <a href="https://webkul.com" target="_blank" class="unset" rel="noopener noreferrer"><i class="fs24 within-circle rango-youtube" title="Youtube"></i> </a> <a href="https://webkul.com" target="_blank" class="unset" rel="noopener noreferrer"><i class="fs24 within-circle rango-instagram" title="instagram"></i></a></div>
+
+                    <div class="subscribe-newsletter col-lg-6">
+                        <div class="form-container">
+                            <form action="https://www.sarasavi.lk/subscribe">
+                                <div class="subscriber-form-div">
+                                    <div class="control-group">
+                                        <input type="email" name="subscriber_email" class="control subscribe-field" placeholder="Your email address" aria-label="Newsletter" required />
+
+                                        <button class="theme-btn subscribe-btn fw6">
+                                        Subscribe
+                                    </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-statics col-12 no-margin">
+                <div class="col-lg-4 col-md-12 col-sm-12 software-description">
+                    <div class="logo">
+                        <a href="https://www.sarasavi.lk" aria-label="Logo">
+                            <img
+                    src="https://www.sarasavi.lk//storage/channel/1/cnTxCXCc7kfX5jJafTk68EHEVq2uFJ9HKugKKqIe.png"
+                    class="logo full-img" alt="Sarasavi-bookshop-logo" width="200" height="50" />
+            
+        </a>
+                    </div>
+
+                    <p>Sarasavi.lk is a website for an extensive collection of books, stationery and magazines.Not only a &ldquo;one-stop shop&rdquo; for book lovers but also an interactive and innovative destination designed to make it fun and exciting
+                        to discover and shop for new books and gifts online.book lovers but also an interactive and innovative destination designed to make it fun and exciting to discover and shop for new books and gifts online.</p>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 footer-ct-content">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-md-12 col-sm-12 no-padding">
+                            <ul type="none">
+                                <li><a href="https://www.sarasavi.lk/page/about-us">About Us</a></li>
+                                <li><a href="https://www.sarasavi.lk/page/cutomer-service">Customer Service</a></li>
+                                <li><a href="https://www.sarasavi.lk/page/branch-network">Branch network</a></li>
+                                <li><a href="https://www.sarasavi.lk/page/contact-us">Contact Us </a></li>
+                                <li><a href="https://www.sarasavi.lk/page/faq">FAQ</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 no-padding">
+                            <ul type="none">
+                                <li><a href="https://www.sarasavi.lk/page/return-policy"> Order and Returns </a></li>
+                                <li><a href="https://www.sarasavi.lk/page/payment-policy"> Payment Policy </a></li>
+                                <li><a href="https://www.sarasavi.lk/page/shipping-policy"> Shipping Policy</a></li>
+                                <li><a href="https://www.sarasavi.lk/page/privacy-policy"> Privacy and Cookies Policy </a></li>
+                                <li><a href="https://www.sarasavi.lk/page/coupon-terms-conditions"> Coupon T&amp;C</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 footer-rt-content">
+                    <div class="row">
+                        <div class="mb5 col-12">
+                            <h3>Payment Methods</h3>
+                        </div>
+
+                        <div class="payment-methods col-12">
+                            <div class="method-sticker">
+                                Cash On Delivery
+                            </div>
+                            <div class="method-sticker">
+                                Online Payment Gateway
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="mb5 col-12">
+                            <h3>Shipping Methods</h3>
+                        </div>
+
+                        <div class="shipping-methods col-12">
+                            <div class="method-sticker">
+                                EMS Shipping
+                            </div>
+                            <div class="method-sticker">
+                                Local Shipping (SL)
+                            </div>
+                            <div class="method-sticker">
+                                Cash On Delivery
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <style>
+        .path-hint {
+            border: solid 1px transparent;
+            padding: 1px;
+        }
+
+        .path-hint:hover {
+            border: 1px solid red;
+        }
+
+        .path-hint-tooltip {
+            padding: 0px 10px;
+            position: absolute;
+            background: #000000;
+            z-index: 10000;
+            color: #fff;
+            font-size: 10px;
+        }
+
+        .path-hint-tooltip h4 {
+            margin-top: 5px;
+            margin-bottom: 3px;
+            color: #fff;
+            font-size: 12px;
+        }
+
+        .path-hint-tooltip ul li {
+            margin-bottom: 3px;
+        }
+
+        .main-container-wrapper .product-card .product-image img {
+            max-width: 100%;
+        }
+    </style>
+
+    <script>
+        window.addEventListener("load", function(event) {
+            $('.testing').each(function(index) {
+                if ($(this).siblings(':not(.path-hint)').length == 1 &&
+                    $(this).next().prop("tagName") != 'INPUT' &&
+                    $(this).next().prop("tagName") != 'TEXTAREA' &&
+                    $(this).next().prop("tagName") != 'SELECT'
+                ) {
+                    $(this).next().addClass('path-hint');
+
+                    $(this).next().attr({
+                        'data-toggle': 'tooltip',
+                        'data-title': $(this).parent('.path-hint').attr('data-title'),
+                        'data-id': $(this).parent('.path-hint').attr('data-id')
+                    });
+
+                    $(this).unwrap();
+                }
+
+                $(this).remove();
+            });
+
+            $('.path-hint').on('mouseover', function(e) {
+                e.stopPropagation();
+
+                var currentElement = $(e.currentTarget);
+
+                var tooltipContent = '<h4>Template</h4>' + currentElement.attr('data-title');
+
+                if ($(this).parents('.path-hint').length) {
+                    tooltipContent += '<h4>Parents</h4>';
+
+                    tooltipContent += '<ul>';
+
+                    $(this).parents('.path-hint').each(function(index) {
+                        tooltipContent += '<li>' + $(this).attr('data-title') + '</li>';
+                    });
+
+                    tooltipContent += '</ul>';
+                }
+
+                $('body').append("<span class='path-hint-tooltip' id='" + currentElement.attr('data-id') + "'>" + tooltipContent + "</span>")
+
+                var elementWidth = currentElement.outerWidth()
+
+                var tooltipWidth = $('.path-hint-tooltip').outerWidth()
+
+                var leftOffset = currentElement.offset().left;
+
+                minus = 0;
+
+                temp = leftOffset + (elementWidth / 2) + (tooltipWidth / 2)
+
+                if (temp > $(window).outerWidth()) {
+                    minus = temp - $(window).outerWidth();
+                }
+
+                if (elementWidth > tooltipWidth) {
+                    var left = leftOffset + ((elementWidth / 2) - (tooltipWidth / 2));
+                } else {
+                    var left = leftOffset - ((tooltipWidth / 2) - (elementWidth / 2));
+                }
+
+                if (left <= 0) {
+                    left = 10;
+                }
+
+                $('.path-hint-tooltip').css('left', left - minus)
+
+                $('.path-hint-tooltip').css('top', currentElement.offset().top + 20)
+            })
+
+            $('[data-toggle="tooltip"]').on('mouseout', function(e) {
+                var currentElement = $(e.currentTarget);
+
+                $("#" + currentElement.attr('data-id')).remove();
+            })
+        })
+    </script>
+
+    <div id="alert-container"></div>
+    <!--pop modal body-->
+
+    <!--<div class="modal" tabindex="-1" role="dialog" id="notice-modal">-->
+    <!--  <div class="modal-dialog" role="document">-->
+    <!--    <div class="modal-content">-->
+    <!--      <div class="modal-header">-->
+    <!--        <h5 class="modal-title">Dear Valued Customer!</h5>-->
+
+    <!--      </div>-->
+    <!--      <div class="modal-body">-->
+    <!--        <p><img class="img-fluid" src="/Delivery-in-lockdown.jpg"></p>-->
+    <!--      </div>-->
+    <!--      <div class="modal-footer">-->
+    <!--        <div class="form-check form-check-inline mr-5">-->
+    <!--            <input class="form-check-input" type="checkbox" id="dont-show-again" >-->
+    <!--            <label class="form-check-label" for="dont-show-again">I have read this. Do not show again.</label>-->
+    <!--        </div>-->
+    <!--        <button id="message-close" type="button" class="btn btn-secondary" data-dismiss="modal">Close & Save Preference</button>-->
+    <!--      </div>-->
+    <!--    </div>-->
+    <!--  </div>-->
+    <!--</div>-->
+
+    <script type="text/javascript" baseUrl="https://www.sarasavi.lk" src="https://www.sarasavi.lk/themes/velocity/assets/js/velocity.js">
+    </script>
+
+    <script type="text/javascript" src="https://www.sarasavi.lk/vendor/webkul/ui/assets/js/ui.js">
+    </script>
+
+    <script type="text/javascript" src="https://www.sarasavi.lk/themes/velocity/assets/js/jquery.ez-plus.js">
+    </script>
+
+    <script type="text/javascript">
+        (() => {
+            window.showAlert = (messageType, messageLabel, message) => {
+                if (messageType && message !== '') {
+                    let alertId = Math.floor(Math.random() * 1000);
+
+                    let html = `<div class="alert ${messageType} alert-dismissible" id="${alertId}">
+                            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                            <strong>${messageLabel ? messageLabel + '!' : ''} </strong> ${message}.
+                        </div>`;
+
+                    $('#alert-container').append(html).ready(() => {
+                        window.setTimeout(() => {
+                            $(`#alert-container #${alertId}`).remove();
+                        }, 5000);
+                    });
+                }
+            }
+
+            let messageType = '';
+            let messageLabel = '';
+
+
+            if (messageType && '' !== '') {
+                window.showAlert(messageType, messageLabel, '');
+            }
+
+            window.serverErrors = [];
+
+            window._translations = {
+                "admin": {
+                    "system": {
+                        "velocity": {
+                            "general": "General",
+                            "category": "Category",
+                            "settings": "Settings",
+                            "extension_name": "Velocity Theme",
+                            "error-module-inactive": "Warning: Velocity theme status is inactive"
+                        },
+                        "settings": {
+                            "channels": {
+                                "subscription_bar": "Subscription bar content"
+                            }
+                        },
+                        "general": {
+                            "status": "Status",
+                            "active": "Active",
+                            "inactive": "Inactive"
+                        },
+                        "category": {
+                            "all": "All",
+                            "left": "Left",
+                            "right": "Right",
+                            "active": "Active",
+                            "custom": "Custom",
+                            "inactive": "Inactive",
+                            "image-alignment": "Image Alignment",
+                            "icon-status": "Category Icon Status",
+                            "image-status": "Category Image Status",
+                            "sub-category-show": "Show Sub Category",
+                            "image-height": "Image\u0027s Height [in Pixel]",
+                            "image-width": "Image\u0027s Width [in Pixel]",
+                            "show-tooltip": "Show Category\u0027s Tooltip",
+                            "num-sub-category": "Number Of Sub Category"
+                        }
+                    },
+                    "layouts": {
+                        "velocity": "Home Page",
+                        "cms-pages": "CMS Pages",
+                        "meta-data": "Meta Data",
+                        "category-menu": "Category Menu",
+                        "header-content": "Header Content"
+                    },
+                    "contents": {
+                        "self": "Self",
+                        "active": "Active",
+                        "new-tab": "New Tab",
+                        "inactive": "Inactive",
+                        "title": "Content List",
+                        "select": "-- Select --",
+                        "add-title": "Add Content",
+                        "btn-add-content": "Add Content",
+                        "save-btn-title": "Save Content",
+                        "autocomplete": "[Autocomplete]",
+                        "no-result-found": "No record found.",
+                        "search-hint": "Search product here...",
+                        "mass-delete-success": "Selected content deleted successfully.",
+                        "tab": {
+                            "page": "Page Setting",
+                            "content": "Content Setting",
+                            "meta_content": "Meta Data"
+                        },
+                        "page": {
+                            "title": "Title",
+                            "status": "Status",
+                            "position": "Position"
+                        },
+                        "content": {
+                            "content-type": "Content Type",
+                            "custom-title": "Custom Title",
+                            "category-slug": "Category Slug",
+                            "link-target": "Page Link Target",
+                            "custom-product": "Store Products",
+                            "custom-heading": "Custom Heading",
+                            "catalog-type": "Product Catalog Type",
+                            "static-description": "Content Description",
+                            "page-link": "Page Link [e.g. http:\/\/example.com\/..\/..\/]"
+                        },
+                        "datagrid": {
+                            "id": "Id",
+                            "title": "Title",
+                            "status": "Status",
+                            "position": "Position",
+                            "content-type": "Content Type"
+                        }
+                    },
+                    "meta-data": {
+                        "footer": "Footer",
+                        "title": "Home page meta data",
+                        "activate-slider": "Activate Slider",
+                        "home-page-content": "Home Page Content",
+                        "footer-left-content": "Footer Left Content",
+                        "subscription-content": "Subscription bar Content",
+                        "sidebar-categories": "Sidebar Categories",
+                        "header_content_count": "Header Content Count",
+                        "footer-left-raw-content": "\u003Cp\u003EWe love to craft softwares and solve the real world problems with the binaries. We are highly committed to our goals. We invest our resources to create world class easy to use softwares and applications for the enterprise business with the top notch, on the edge technology expertise.\u003C\/p\u003E",
+                        "slider-path": "Slider Path",
+                        "category-logo": "Category logo",
+                        "product-policy": "Product Policy",
+                        "update-meta-data": "Update Meta Data",
+                        "product-view-image": "Product View Image",
+                        "advertisement-two": "Advertisement Two Images",
+                        "advertisement-one": "Advertisement One Images",
+                        "footer-middle-content": "Footer Middle Content",
+                        "advertisement-four": "Advertisement Four Images",
+                        "advertisement-three": "Advertisement Three Images",
+                        "images": "Images",
+                        "general": "General",
+                        "add-image-btn-title": "Add Image"
+                    },
+                    "category": {
+                        "save-btn-title": "Save Menu",
+                        "title": "Category Menu List",
+                        "add-title": "Add Menu Content",
+                        "edit-title": "Edit Menu Content",
+                        "btn-add-category": "Add Category Content",
+                        "datagrid": {
+                            "category-id": "Category Id",
+                            "category-name": "Category Name",
+                            "category-icon": "Category Icon",
+                            "category-status": "Status"
+                        },
+                        "tab": {
+                            "general": "General"
+                        },
+                        "status": "Status",
+                        "active": "Active",
+                        "inactive": "Inactive",
+                        "select": "-- Select --",
+                        "icon-class": "Icon Class",
+                        "select-category": "Choose Category",
+                        "tooltip-content": "Tooltip Content",
+                        "mass-delete-success": "Selected categories menu deleted successfully."
+                    },
+                    "general": {
+                        "locale_logo": "Locale Logo"
+                    }
+                },
+                "home": {
+                    "view-all": "View All",
+                    "add-to-cart": "Add To Cart",
+                    "hot-categories": "Hot Categories",
+                    "payment-methods": "Payment Methods",
+                    "customer-reviews": "Customer Reviews",
+                    "shipping-methods": "Shipping Methods",
+                    "popular-categories": "Popular Categories"
+                },
+                "header": {
+                    "cart": "Cart",
+                    "guest": "Guest",
+                    "logout": "Logout",
+                    "title": "Account",
+                    "account": "Account",
+                    "profile": "Profile",
+                    "wishlist": "Wishlist",
+                    "all-categories": "All Categories",
+                    "search-text": "Search products here",
+                    "welcome-message": "Welcome, :customer_name",
+                    "dropdown-text": "Manage Cart, Orders \u0026 Wishlist"
+                },
+                "menu-navbar": {
+                    "text-more": "More",
+                    "text-category": "Shop by Category"
+                },
+                "minicart": {
+                    "cart": "Cart",
+                    "view-cart": "View Cart"
+                },
+                "checkout": {
+                    "qty": "Qty",
+                    "checkout": "Checkout",
+                    "cart": {
+                        "view-cart": "View Cart",
+                        "cart-summary": "Cart Summary"
+                    },
+                    "items": "Items",
+                    "subtotal": "Subtotal",
+                    "sub-total": "Sub Total",
+                    "proceed": "Proceed to checkout"
+                },
+                "customer": {
+                    "compare": {
+                        "text": "Compare",
+                        "compare_similar_items": "Compare Similar Items",
+                        "add-tooltip": "Add product to compare list",
+                        "added": "Item successfully added to compare list",
+                        "already_added": "Item already added to compare list",
+                        "removed": "Item successfully removed from compare list",
+                        "removed-all": "All Items successfully removed from compare list",
+                        "empty-text": "You don\u0027t have any items in your compare list",
+                        "product_image": "Product Image",
+                        "actions": "Actions"
+                    },
+                    "login-form": {
+                        "sign-up": "Sign up",
+                        "new-customer": "New Customer",
+                        "customer-login": "Customer Login",
+                        "registered-user": "Registered User",
+                        "your-email-address": "Your email address",
+                        "form-login-text": "If you have an account, sign in with your email address."
+                    },
+                    "signup-form": {
+                        "login": "Login",
+                        "become-user": "Become User",
+                        "user-registration": "User Registration",
+                        "form-sginup-text": "If you are new to our store, we glad to have you as member."
+                    },
+                    "forget-password": {
+                        "login": "Login",
+                        "forgot-password": "Forgot Password",
+                        "recover-password": "Recover Password",
+                        "recover-password-text": "If you forgot your password, recover it by entering your email address."
+                    },
+                    "wishlist": {
+                        "remove-all-success": "All the items from your wishlist have been removed"
+                    }
+                },
+                "error": {
+                    "go-to-home": "Go to home",
+                    "page-lost-short": "Page lost content",
+                    "something_went_wrong": "something went wrong",
+                    "page-lost-description": "The page you\u0027re looking for isn\u0027t available. Try to search again or use the Go Back button below."
+                },
+                "products": {
+                    "text": "Products",
+                    "details": "Details",
+                    "reviews-title": "Reviews",
+                    "reviewed": "Reviewed",
+                    "review-by": "Review by",
+                    "quick-view": "Quick View",
+                    "not-available": "Not Available",
+                    "submit-review": "Submit Review",
+                    "ratings": ":totalRatings Ratings",
+                    "reviews-count": ":totalReviews Reviews",
+                    "customer-rating": "Customer Rating",
+                    "more-infomation": "More Information",
+                    "view-all-reviews": "View All Reviews",
+                    "write-your-review": "Write Your Review",
+                    "short-description": "Short Descriptions",
+                    "recently-viewed": "Recently Viewed Products",
+                    "be-first-review": "Be the first to write a review"
+                },
+                "shop": {
+                    "gender": {
+                        "male": "Male",
+                        "other": "Other",
+                        "female": "Female"
+                    },
+                    "general": {
+                        "no": "No",
+                        "yes": "Yes",
+                        "view": "View",
+                        "filter": "Filter",
+                        "orders": "Orders",
+                        "update": "Update",
+                        "reviews": "Reviews",
+                        "download": "Download",
+                        "currencies": "Currencies",
+                        "addresses": "Addresses",
+                        "top-brands": "Top Brands",
+                        "new-password": "New password",
+                        "no-file-available": "No File Available!",
+                        "downloadables": "Downloadable Products",
+                        "confirm-new-password": "Confirm new password",
+                        "enter-current-password": "Enter your current password",
+                        "alert": {
+                            "info": "Info",
+                            "error": "Error",
+                            "success": "Success",
+                            "warning": "Warning"
+                        }
+                    },
+                    "wishlist": {
+                        "add-wishlist-text": "Add product to wishlist",
+                        "remove-wishlist-text": "Remove product from wishlist"
+                    }
+                },
+                "responsive": {
+                    "header": {
+                        "done": "Done",
+                        "languages": "Languages",
+                        "greeting": "Welcome, :customer !"
+                    }
+                }
+            };
+
+
+            $(window).on('load', function() {
+                $('#notice-modal').modal({
+                    backdrop: 'static',
+                    keyboard: false
+                });
+            });
+            document.getElementById('message-close').addEventListener('click', function() {
+                if (document.getElementById("dont-show-again").checked) {
+                    axios.post('/message-cookie');
+                }
+            });
+
+        })();
+    </script>
+
+    <script type="text/x-template" id="slider-template">
+        <div class="slides-container ltr">
+            <carousel-component loop="true" timeout="5000" autoplay="true" slides-per-page="1" navigation-enabled="hide" locale-direction="direction" :slides-count="4">
+
+
+                <slide slot="slide-0" title=" ">
+                    <a>
+                                <img
+                                    class="col-12 no-padding banner-icon img-responsive"
+                                    src="https://www.sarasavi.lk/storage/slider_images/Bookchannel/S7XUPg7EADLVZmyoJ7VWuWqCh8eVb3QZ0Y1KNuwV.jpg"
+                                    alt="" width="1298" height="450" />
+
+                                <div class="show-content" v-html="''">
+                                </div>
+                            </a>
+                </slide>
+
+
+                <slide slot="slide-1" title=" ">
+                    <a>
+                                <img
+                                    class="col-12 no-padding banner-icon img-responsive"
+                                    src="https://www.sarasavi.lk/storage/slider_images/Bookchannel/HAnkrjibygDp4HV1ZEfSuQy1fvaN6UFK2q2YYsSf.jpg"
+                                    alt="" width="1298" height="450" />
+
+                                <div class="show-content" v-html="''">
+                                </div>
+                            </a>
+                </slide>
+
+
+                <slide slot="slide-2" title=" ">
+                    <a>
+                                <img
+                                    class="col-12 no-padding banner-icon img-responsive"
+                                    src="https://www.sarasavi.lk/storage/slider_images/Bookchannel/CtICqD16FKJKhqulBt9jeKWgxWJQfi6VKKAPNwq4.jpg"
+                                    alt="" width="1298" height="450" />
+
+                                <div class="show-content" v-html="''">
+                                </div>
+                            </a>
+                </slide>
+
+
+                <slide slot="slide-3" title=" ">
+                    <a href="https://www.sarasavi.lk/barige-sihinaya-9553125948">
+                                <img
+                                    class="col-12 no-padding banner-icon img-responsive"
+                                    src="https://www.sarasavi.lk/storage/slider_images/Bookchannel/UahCpsJV1PfQvtvtVkC9dbNsBIyJqSIFSmnrb2af.jpg"
+                                    alt="" width="1298" height="450" />
+
+                                <div class="show-content" v-html="''">
+                                </div>
+                            </a>
+                </slide>
+
+
+            </carousel-component>
+        </div>
+    </script>
+
+    <script type='text/javascript'>
+        (() => {
+            Vue.component('slider-component', {
+                template: '#slider-template',
+                props: ['direction'],
+
+                mounted: function() {
+                    let banners = this.$el.querySelectorAll('img');
+                    banners.forEach(banner => {
+                        banner.style.display = 'block';
+                    });
+                }
+            })
+        })()
+    </script>
+    <script type="text/x-template" id="new-products-template">
+        <div class="container-fluid">
+            <shimmer-component v-if="isLoading"></shimmer-component>
+
+            <template v-else-if="newProducts.length > 0">
+                <card-list-header heading="New Products">
+                </card-list-header>
+
+                
+
+                                            <div class="carousel-products vc-full-screen ltr">
+                            <carousel-component
+                                slides-per-page="6"
+                                navigation-enabled="hide"
+                                pagination-enabled="hide"
+                                id="new-products-carousel"
+                                locale-direction="ltr"
+                                :slides-count="newProducts.length">
+
+                                <slide
+                                    :key="index"
+                                    :slot="`slide-${index}`"
+                                    v-for="(product, index) in newProducts">
+                                    <product-card
+                                        :list="list"
+                                        :product="product">
+                                    </product-card>
+                                </slide>
+                            </carousel-component>
+                        </div>
+
+                        <div class="carousel-products vc-small-screen ltr">
+                            <carousel-component
+                                slides-per-page="2"
+                                navigation-enabled="hide"
+                                pagination-enabled="hide"
+                                id="new-products-carousel"
+                                locale-direction="ltr"
+                                :slides-count="newProducts.length">
+
+                                <slide
+                                    :key="index"
+                                    :slot="`slide-${index}`"
+                                    v-for="(product, index) in newProducts">
+                                    <product-card
+                                        :list="list"
+                                        :product="product">
+                                    </product-card>
+                                </slide>
+                            </carousel-component>
+                        </div>
+                    
+                
+            </template>
+
+        </div>
+    </script>
+
+    <script type="text/javascript">
+        (() => {
+            Vue.component('new-products', {
+                'template': '#new-products-template',
+                data: function() {
+                    return {
+                        'list': false,
+                        'isLoading': true,
+                        'newProducts': [],
+                        'isMobileView': this.$root.isMobile(),
+                    }
+                },
+
+                mounted: function() {
+                    this.getNewProducts();
+                },
+
+                methods: {
+                    'getNewProducts': function() {
+                        this.$http.get(`${this.baseUrl}/category-details?category-slug=new-products&count=10`)
+                            .then(response => {
+                                var count = '10';
+                                if (response.data.status && count != 0) {
+                                    this.newProducts = response.data.products;
+                                } else {
+                                    this.newProducts = 0;
+                                }
+
+                                this.isLoading = false;
+                            })
+                            .catch(error => {
+                                this.isLoading = false;
+                                console.log(this.__('error.something_went_wrong'));
+                            })
+                    }
+                }
+            })
+        })()
+    </script>
+    <script type="text/x-template" id="featured-products-template">
+        <div class="container-fluid featured-products">
+            <shimmer-component v-if="isLoading"></shimmer-component>
+
+            <template v-else-if="featuredProducts.length > 0">
+                <card-list-header heading="Featured Products">
+                </card-list-header>
+
+                <div class="carousel-products vc-full-screen ltr">
+                    <carousel-component
+                        slides-per-page="6"
+                        navigation-enabled="hide"
+                        pagination-enabled="hide"
+                        id="fearured-products-carousel"
+                        locale-direction="ltr"
+                        autoplay="true"
+                         loop ="true"
+                        
+                        :slides-count="featuredProducts.length">
+
+                        <slide
+                            :key="index"
+                            :slot="`slide-${index}`"
+                            v-for="(product, index) in featuredProducts">
+                            <product-card
+                                :list="list"
+                                :product="product">
+                            </product-card>
+                        </slide>
+                    </carousel-component>
+                </div>
+
+                <div class="carousel-products vc-small-screen ltr">
+                    <carousel-component
+                        slides-per-page="2"
+                        navigation-enabled="hide"
+                        pagination-enabled="hide"
+                        id="fearured-products-carousel"
+                        locale-direction="ltr"
+                        autoplay="true"
+                         loop ="flase"
+                        :slides-count="featuredProducts.length">
+
+                        <slide
+                            :key="index"
+                            :slot="`slide-${index}`"
+                            v-for="(product, index) in featuredProducts">
+                            <product-card
+                                :list="list"
+                                :product="product">
+                            </product-card>
+                        </slide>
+                    </carousel-component>
+                </div>
+            </template>
+
+        </div>z
+    </script>
+
+    <script type="text/javascript">
+        (() => {
+            Vue.component('featured-products', {
+                'template': '#featured-products-template',
+                data: function() {
+                    return {
+                        'list': false,
+                        'isLoading': true,
+                        'featuredProducts': [],
+                        'isMobileView': this.$root.isMobile(),
+                    }
+                },
+
+                mounted: function() {
+                    this.getFeaturedProducts();
+                },
+
+                methods: {
+                    'getFeaturedProducts': function() {
+                        this.$http.get(`${this.baseUrl}/category-details?category-slug=featured-products&count=10`)
+                            .then(response => {
+                                var count = '10';
+                                if (response.data.status && count != 0) {
+                                    this.featuredProducts = response.data.products;
+                                } else {
+                                    this.featuredProducts = 0;
+                                }
+
+                                this.isLoading = false;
+                            })
+                            .catch(error => {
+                                this.isLoading = false;
+                                console.log(this.__('error.something_went_wrong'));
+                            })
+                    }
+                }
+            })
+        })()
+    </script>
+    <script type="text/x-template" id="bestsellers-template">
+        <div class="container-fluid featured-products">
+            <shimmer-component v-if="isLoading"></shimmer-component>
+            <card-list-header :scrollable="false" :heading="title">
+            </card-list-header>
+            <div class="carousel-products vc-full-screen ltr">
+                <carousel-component slides-per-page="6" :navigation-enabled="false" pagination-enabled="hide" id="bestselling-products-carousel" locale-direction="ltr" autoplay="true" loop="true" speed="50" :slides-count="products.length">
+                    <slide :key="index" :slot="`slide-${index}`" v-for="(product, index) in products">
+                        <product-card :list="list" :product="product">
+                        </product-card>
+                    </slide>
+                </carousel-component>
+            </div>
+            <div class="carousel-products vc-small-screen ltr">
+                <carousel-component slides-per-page="2" :navigation-enabled="true" pagination-enabled="hide" autoplay="true" id="bestselling-products-carousel" locale-direction="ltr" :slides-count="products.length">
+
+                    <slide :key="index" :slot="`slide-${index}`" v-for="(product, index) in products">
+                        <product-card :list="list" :product="product">
+                        </product-card>
+                    </slide>
+                </carousel-component>
+            </div>
+        </div>
+    </script>
+
+    <script type="text/javascript">
+        (() => {
+            Vue.component('bestsellers', {
+                'template': '#bestsellers-template',
+                data: function() {
+                    return {
+                        'list': false,
+                        'isLoading': true,
+                        'products': [],
+                        'isMobileView': this.$root.isMobile(),
+
+                    }
+                },
+                props: {
+                    language: String,
+                    title: String
+                },
+
+                mounted: function() {
+                    this.getBestsellers();
+
+                },
+
+                methods: {
+                    'getBestsellers': function() {
+
+                        this.$http.get(`${this.baseUrl}/ajax/best-sellers`, {
+                                params: {
+                                    lang: this.language || 'en'
+                                }
+                            })
+                            .then(response => {
+                                var count = '10';
+                                if (response.data) {
+                                    // console.log(products);
+                                    this.products = response.data;
+
+                                } else {
+                                    //this.featuredProducts = 0;   
+                                }
+
+                                this.isLoading = false;
+                            })
+                            .catch(error => {
+                                this.isLoading = false;
+                                console.log(this.__('error.something_went_wrong'));
+                            })
+                    }
+                }
+            })
+        })()
+    </script>
+    <script type="text/x-template" id="category-products-template">
+        <div class="container-fluid">
+            <shimmer-component v-if="isLoading"></shimmer-component>
+
+            <template v-else-if="newProducts.length > 0">
+                <card-list-header :heading="title" :view-all="viewAll">
+                </card-list-header>
+
+                
+                 <div class="carousel-products vc-full-screen ltr">
+                            <carousel-component
+                                slides-per-page="6"
+                                navigation-enabled="hide"
+                                pagination-enabled="hide"
+                                
+                                id="new-products-carousel"
+                                locale-direction="ltr"
+                                :slides-count="newProducts.length">
+
+                                <slide
+                                    :key="index"
+                                    :slot="`slide-${index}`"
+                                    v-for="(product, index) in newProducts">
+                                    <product-card
+                                        :list="list"
+                                        :product="product">
+                                    </product-card>
+                                </slide>
+                            </carousel-component>
+                        </div>
+
+                        <div class="carousel-products vc-small-screen ltr">
+                            <carousel-component
+                                slides-per-page="2"
+                                navigation-enabled="hide"
+                                pagination-enabled="hide"
+                               
+                                id="new-products-carousel"
+                                locale-direction="ltr"
+                                :slides-count="newProducts.length">
+
+                                <slide
+                                    :key="index"
+                                    :slot="`slide-${index}`"
+                                    v-for="(product, index) in newProducts">
+                                    <product-card
+                                        :list="list"
+                                        :product="product">
+                                    </product-card>
+                                </slide>
+                            </carousel-component>
+                        </div>
+         
+
+                
+            </template>
+
+
+        </div>
+    </script>
+
+    <script type="text/javascript">
+        (() => {
+            Vue.component('category-products', {
+                'template': '#category-products-template',
+                data: function() {
+                    return {
+                        'list': false,
+                        'isLoading': true,
+                        'newProducts': [],
+                        'isMobileView': this.$root.isMobile(),
+                    }
+                },
+                props: {
+                    'categoryId': String,
+                    'viewAll': String,
+                    'title': String
+                },
+
+                mounted: function() {
+                    this.getNewProducts();
+                },
+
+                methods: {
+
+                    'getNewProducts': function() {
+                        let this_this = this;
+
+                        this.$http.get(`${this.baseUrl}/category-products/${this_this.categoryId}?limit=10&sort=created_at&order=desc`)
+                            .then(response => {
+                                var count = '10';
+                                if (response.data) {
+                                    this.newProducts = response.data.products.data;
+                                } else {
+                                    this.newProducts = [];
+                                }
+
+                                this.isLoading = false;
+                            })
+                            .catch(error => {
+                                this.isLoading = false;
+                                console.log(this.__('error.something_went_wrong'));
+                            })
+                    }
+                }
+            })
+        })()
+    </script>
+    <script type="text/x-template" id="cart-btn-template">
+        <button type="button" id="mini-cart" @click="toggleMiniCart" :class="`btn btn-link disable-box-shadow ${itemCount == 0 ? 'cursor-not-allowed' : ''}`">
+
+            <div class="mini-cart-content">
+                <i class="material-icons-outlined text-down-3">shopping_cart</i>
+                <span class="badge" v-text="itemCount" v-if="itemCount != 0"></span>
+                <span class="fs18 fw6 cart-text">Cart</span>
+            </div>
+            <div class="down-arrow-container">
+                <span class="rango-arrow-down"></span>
+            </div>
+        </button>
+    </script>
+
+    <script type="text/x-template" id="close-btn-template">
+        <button type="button" class="close disable-box-shadow">
+            <span class="white-text fs20" @click="togglePopup">×</span>
+        </button>
+    </script>
+
+    <script type="text/x-template" id="quantity-changer-template">
+        <div :class="`quantity control-group ${errors.has(controlName) ? 'has-error' : ''}`">
+            <label class="required" for="quantity-changer">Quantity</label>
+            <button type="button" class="decrease" @click="decreaseQty()">-</button>
+
+            <input :value="qty" class="control" :name="controlName" :v-validate="validations" id="quantity-changer" data-vv-as="&quot;Quantity&quot;" readonly />
+
+            <button type="button" class="increase" @click="increaseQty()">+</button>
+
+            <span class="control-error" v-if="errors.has(controlName)">{{ errors.first(controlName) }}</span>
+        </div>
+    </script>
+    <script type="text/x-template" id="logo-template">
+        <a :class="`left ${addClass}`" href="https://www.sarasavi.lk" aria-label="Logo">
+                            <img class="logo" src="https://www.sarasavi.lk/themes/velocity/assets/images/Sarasavi-Logo-web-02.svg" alt="Sarasavi-Logo" width="200" height="50" />
+                    </a>
+    </script>
+    <script type="text/x-template" id="searchbar-template">
+        <div class="right searchbar">
+            <div class="row">
+                <div class="col-lg-5 col-md-12">
+                    <div class="input-group">
+                        <form method="GET" role="search" id="search-form" action="https://www.sarasavi.lk/categorysearch">
+                            <div class="btn-toolbar full-width" role="toolbar">
+                                <div class="btn-group full-width force-center">
+                                    <div id="search-bar" class="search-bar">
+                                        <input autocomplete="off" required name="term" type="search" class="form-control search-input" placeholder="Search over 100,000+ books here" aria-label="Search" v-model:value="inputVal" @keyup="search" />
+                                        <div v-if="showResults" class="search-bar-results">
+                                            <a v-for="result in results" class="text-reset text-decoration-none" :href="'/' + result.url_key">
+                                                <div class="search-bar-result clearfix p-2">
+
+                                                    <div class="result-section result-image">
+                                                        <img :src="result.small_image_url" class="img-fluid">
+                                                    </div>
+                                                    <div class="result-section result-info ml-3">
+                                                        <div class="result-title">{{result.name}}</div>
+                                                        <div class="result-author">Author: {{result.author_label}}</div>
+                                                        <div v-if="result.price" class="result-price">{{result.price}}</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="search-bar-result text-center p-3" v-if="results !== null && results.length === 0  && !searchError">
+                                                No Result Found for the Query.
+                                            </div>
+                                            <div v-if="searchError" class="search-bar-result search-bar-error p-2 text-center">
+                                                <div>Error occurred while fetching books from the server</div>
+                                                <button type="button" @click="search" class="search-retry-btn">Retry</button>
+                                            </div>
+                                            <div v-if="moreAvailable" class="search-bar-result search-bar-more p-1 text-center">
+                                                <a :href="'/categorysearch?term=' + encodeURI(inputVal)" class="text-reset text-decoration-none">See More Results</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn" type="submit" id="header-search-icon" aria-label="Search" @click="submitForm">
+                                        <i class="fs16 fw6 rango-search"></i>
+                                </button>
+
+                                    <div v-if="loading" class="spinner-container">
+                                        <div role="status" class="spinner-border text-primary">
+                                            <span class="sr-only">Loading...</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-7 col-md-12 vc-full-screen">
+
+
+                    <div class="mini-cart-container pull-right">
+                        <mini-cart view-cart="https://www.sarasavi.lk/checkout/cart" cart-text="View Shopping Cart" checkout-text="Checkout" checkout-url="https://www.sarasavi.lk/checkout/onepage" subtotal-text="Cart Subtotal">
+                        </mini-cart>
+                    </div>
+
+
+
+
+
+                    <a style="font-size:12px;" class="wishlist-btn unset" :href="`https://www.sarasavi.lk/customer/account/wishlist`">
+                                <i class="material-icons">favorite_border</i>
+                                <div class="badge-container" v-if="wishlistCount > 0">
+                                    <span class="badge" v-text="wishlistCount"></span>
+                                </div>
+                                <span>Wishlist</span>
+                            </a>
+
+
+                    <a href="https://sarasavi.lk/advanced-search" class="wishlist-btn unset" style="font-size:12px;">
+                      <i class="material-icons">location_searching</i> 
+                         <!----> <span >Advanced Search</span></a>
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <script type="text/javascript">
+        (() => {
+            Vue.component('cart-btn', {
+                template: '#cart-btn-template',
+
+                props: ['itemCount'],
+
+                methods: {
+                    toggleMiniCart: function() {
+                        let modal = $('#cart-modal-content')[0];
+                        if (modal)
+                            modal.classList.toggle('hide');
+
+                        let accountModal = $('.account-modal')[0];
+                        if (accountModal)
+                            accountModal.classList.add('hide');
+
+                        event.stopPropagation();
+                    }
+                }
+            });
+
+            Vue.component('close-btn', {
+                template: '#close-btn-template',
+
+                methods: {
+                    togglePopup: function() {
+                        $('#cart-modal-content').hide();
+                    }
+                }
+            });
+
+            Vue.component('quantity-changer', {
+                template: '#quantity-changer-template',
+                inject: ['$validator'],
+                props: {
+                    controlName: {
+                        type: String,
+                        default: 'quantity'
+                    },
+
+                    quantity: {
+                        type: [Number, String],
+                        default: 1
+                    },
+
+                    minQuantity: {
+                        type: [Number, String],
+                        default: 1
+                    },
+
+                    validations: {
+                        type: String,
+                        default: 'required|numeric|min_value:1'
+                    }
+                },
+
+                data: function() {
+                    return {
+                        qty: this.quantity
+                    }
+                },
+
+                watch: {
+                    quantity: function(val) {
+                        this.qty = val;
+
+                        this.$emit('onQtyUpdated', this.qty)
+                    }
+                },
+
+                methods: {
+                    decreaseQty: function() {
+                        if (this.qty > this.minQuantity)
+                            this.qty = parseInt(this.qty) - 1;
+
+                        this.$emit('onQtyUpdated', this.qty)
+                    },
+
+                    increaseQty: function() {
+                        this.qty = parseInt(this.qty) + 1;
+
+                        this.$emit('onQtyUpdated', this.qty)
+                    }
+                }
+            });
+
+            Vue.component('logo-component', {
+                template: '#logo-template',
+                props: ['addClass'],
+            });
+
+            Vue.component('searchbar-component', {
+                template: '#searchbar-template',
+                data: function() {
+                    return {
+                        currentVal: null,
+                        inputVal: '',
+                        stop: false,
+                        compareCount: 0,
+                        wishlistCount: 0,
+                        searchedQuery: [],
+                        searchTimeout: null,
+                        loading: false,
+                        showResults: false,
+                        searchError: false,
+                        moreAvailable: false,
+                        results: null,
+                        isCustomer: 'false' == "true",
+                    }
+                },
+
+                mounted: function() {
+                    document.addEventListener('click', this.close);
+                },
+                beforeDestroy: function() {
+                    document.removeEventListener('click', this.close)
+                },
+                watch: {
+                    '$root.headerItemsCount': function() {
+                        this.updateHeaderItemsCount();
+                    }
+                },
+
+                created: function() {
+                    let searchedItem = window.location.search.replace("?", "");
+                    searchedItem = searchedItem.split('&');
+
+                    let updatedSearchedCollection = {};
+
+                    searchedItem.forEach(item => {
+                        let splitedItem = item.split('=');
+                        updatedSearchedCollection[splitedItem[0]] = decodeURI(splitedItem[1]);
+                    });
+
+                    if (updatedSearchedCollection['image-search'] == 1) {
+                        updatedSearchedCollection.term = '';
+                    }
+
+                    this.searchedQuery = updatedSearchedCollection;
+
+                    if (this.searchedQuery.term) {
+                        this.inputVal = decodeURIComponent(this.searchedQuery.term.split('+').join(' '));
+                    }
+
+                    this.updateHeaderItemsCount();
+                },
+
+                methods: {
+                    'focusInput': function(event) {
+                        $(event.target.parentElement.parentElement).find('input').focus();
+                    },
+                    'close': function(e) {
+                        if (!document.getElementById('search-bar').contains(e.target)) {
+                            this.showResults = false;
+                        } else if (!this.showResult) {
+                            if (!this.results) {
+                                this.search();
+                            }
+                            if (this.results) {
+                                this.showResults = true;
+                            }
+                        }
+                    },
+                    'search': function(event) {
+                        clearTimeout(this.searchTimeout);
+                        this.loading = false;
+                        this.stop = false;
+                        this.searchError = false;
+                        if (this.inputVal.length < 4) {
+                            this.showResults = false;
+                            this.results = null;
+                            this.moreAvailable = false;
+                            return;
+                        }
+                        $this = this;
+                        this.searchTimeout = setTimeout(() => {
+                            if (this.stop) {
+                                return;
+                            }
+                            this.loading = true;
+                            $timeout = $this.searchTimeout;
+                            axios.get('/ajax/search?term=' + encodeURI(this.inputVal))
+                                .then(function(response) {
+                                    $this.loading = false;
+                                    if ($this.searchTimeout === $timeout && !$this.stop) {
+                                        $this.results = response.data.books;
+                                        $this.moreAvailable = response.data.moreAvailable;
+                                        $this.showResults = true;
+                                        $this.currentVal = $this.inputVal.trim();
+                                    }
+                                })
+                                .catch(function(error) {
+                                    $this.loading = false;
+                                    $this.searchError = true;
+                                    $this.showResults = true;
+                                })
+                        }, 500);
+                    },
+                    'submitForm': function() {
+                        if (this.inputVal !== '') {
+
+                            this.stop = true;
+                            this.loading = false;
+                        }
+                    },
+
+                    'updateHeaderItemsCount': function() {
+                        if (!this.isCustomer) {
+                            let comparedItems = this.getStorageValue('compared_product');
+
+                            if (comparedItems) {
+                                this.compareCount = comparedItems.length;
+                            }
+                        } else {
+                            this.$http.get(`${this.$root.baseUrl}/items-count`)
+                                .then(response => {
+                                    this.compareCount = response.data.compareProductsCount;
+                                    this.wishlistCount = response.data.wishlistedProductsCount;
+                                })
+                                .catch(exception => {
+                                    console.log(this.__('error.something_went_wrong'));
+                                });
+                        }
+                    }
+                }
+            });
+
+
+        })()
+    </script>
+    <script type="text/javascript">
+        (() => {
+            document.addEventListener('scroll', e => {
+                scrollPosition = Math.round(window.scrollY);
+
+                if (scrollPosition > 50) {
+                    document.querySelector('header').classList.add('header-shadow');
+                } else {
+                    document.querySelector('header').classList.remove('header-shadow');
+                }
+            });
+        })()
+    </script>
+    <script type="text/x-template" id="content-header-template">
+        <header class="row velocity-divide-page vc-header header-shadow active">
+            <div class="vc-small-screen container">
+                <div class="row">
+                    <div class="col-6">
+                        <div v-if="hamburger" class="nav-container scrollable">
+                            <div class="wrapper" v-if="this.rootCategories">
+                                <div class="greeting drawer-section fw6">
+                                    <i class="material-icons">perm_identity</i>
+                                    <span>
+                                                                                    <a class="unset" href="https://www.sarasavi.lk/customer/login">
+                                            Welcome, Guest !
+                                            </a>
+                                        
+                                        
+                                        <i
+                                            @click="closeDrawer()"
+                                            class="material-icons pull-right text-dark">
+                                            cancel
+                                        </i>
+                                    </span>
+                                </div>
+
+
+
+
+                                <ul type="none" class="velocity-content" v-if="headerContent.length > 0">
+                                    <li><a class="unset" href="https://www.sarasavi.lk/sarasavi-publishers">Sarasavi Publications <i style="background-color: yellow"> 20% off <i></a></li>
+                                    <li><a class="unset" href="https://www.sarasavi.lk/categorysearch?publisher=2496&mode=grid">Sumitha Publications</a></li>
+
+                                    <li :key="index" v-for="(content, index) in headerContent">
+                                        <a class="unset" v-text="content.title" :href="`${$root.baseUrl}/${content.page_link}`">
+                                        </a>
+                                    </li>
+                                    <li><a href="http://catalogue.sarasavi.lk/" target="_blank" class="unset">Catalogues</a></li>
+                                    <li style="background-color: red; color:white;"><a class="unset" href="https://www.sarasavi.lk/book-pack-deals"> Book Pack Deals </a></li>
+                                    <li><a href="../page/branch-network" target="_blank" class="unset">Branch Network</a></li>
+
+                                </ul>
+
+                                <ul type="none" class="category-wrapper" v-if="rootCategoriesCollection.length > 0">
+                                    <li v-for="(category, index) in rootCategoriesCollection" @click="toggleSubcategories(index, $event)">
+                                        <a class="unset" @click="toggleSubcategories(index, $event)">
+                                            <div class="category-logo" style="background-color:white;">
+                                                <img class="category-icon" v-if="category.category_icon_path" :src="`${$root.baseUrl}/storage/${category.category_icon_path}`" alt="" width="20" height="20" />
+                                            </div>
+                                            <span v-text="category.name"></span>
+                                        </a>
+
+                                        <i class="rango-arrow-right" @click="toggleSubcategories(index, $event)"></i>
+                                    </li>
+
+                                </ul>
+
+
+                                <ul type="none" class="meta-wrapper">
+                                    <li>
+                                        <div class="language-logo-wrapper">
+                                            <img class="language-logo" src="https://www.sarasavi.lk/themes/velocity/assets/images/flags/en.png" alt="" />
+                                        </div>
+                                        <span>English</span>
+
+                                        <i class="rango-arrow-right" @click="toggleMetaInfo('languages')">
+                                        </i>
+                                    </li>
+
+                                    <li>
+                                        <span>LKR</span>
+
+                                        <i class="rango-arrow-right" @click="toggleMetaInfo('currencies')">
+                                        </i>
+                                    </li>
+
+                                    <li>
+
+                                        <a class="unset" href="https://www.sarasavi.lk/customer/login">
+                                                <span>Sign In</span>
+                                            </a>
+                                    </li>
+
+                                    <li>
+                                        <a class="unset" href="https://www.sarasavi.lk/customer/register">
+                                                <span>Sign Up</span>
+                                            </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="wrapper" v-else-if="subCategory">
+                                <div class="drawer-section">
+                                    <i class="rango-arrow-left fs24 text-down-4" @click="toggleSubcategories('root')"></i>
+
+                                    <h4 class="display-inbl">{{ subCategory.name }}</h4>
+
+                                    <i class="material-icons pull-right text-dark" @click="closeDrawer()">
+                                        cancel
+                                    </i>
+                                </div>
+
+                                <ul type="none">
+                                    <li :key="index" v-for="(nestedSubCategory, index) in subCategory.children">
+
+                                        <a class="unset" :href="`${$root.baseUrl}/${subCategory.slug}/${nestedSubCategory.slug}`">
+
+                                            <div class="category-logo">
+                                                <img class="category-icon" v-if="nestedSubCategory.category_icon_path" :src="`${$root.baseUrl}/storage/${nestedSubCategory.category_icon_path}`" alt="" width="20" height="20" />
+                                            </div>
+                                            <span>{{ nestedSubCategory.name }}</span>
+                                        </a>
+
+                                        <ul type="none" class="nested-category" v-if="nestedSubCategory.children && nestedSubCategory.children.length > 0">
+
+                                            <li :key="`index-${Math.random()}`" v-for="(thirdLevelCategory, index) in nestedSubCategory.children">
+                                                <a class="unset" :href="`${$root.baseUrl}/${subCategory.slug}/${nestedSubCategory.slug}/${thirdLevelCategory.slug}`">
+
+                                                    <div class="category-logo">
+                                                        <img class="category-icon" v-if="thirdLevelCategory.category_icon_path" :src="`${$root.baseUrl}/storage/${thirdLevelCategory.category_icon_path}`" alt="" width="20" height="20" />
+                                                    </div>
+                                                    <span>{{ thirdLevelCategory.name }}</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="wrapper" v-else-if="languages">
+                                <div class="drawer-section">
+                                    <i class="rango-arrow-left fs24 text-down-4" @click="toggleMetaInfo('languages')"></i>
+                                    <h4 class="display-inbl">Languages</h4>
+                                    <i class="material-icons pull-right text-dark" @click="closeDrawer()">cancel</i>
+                                </div>
+
+                                <ul type="none">
+                                    <li>
+                                        <a class="unset" href="?locale=en">
+
+                                            <div class="category-logo">
+                                                <img class="category-icon" src="https://www.sarasavi.lk/themes/velocity/assets/images/flags/en.png" alt="" width="20" height="20" />
+                                            </div>
+
+                                            <span>
+                                                    English
+                                                </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="wrapper" v-else-if="currencies">
+                                <div class="drawer-section">
+                                    <i class="rango-arrow-left fs24 text-down-4" @click="toggleMetaInfo('currencies')"></i>
+                                    <h4 class="display-inbl">Currencies</h4>
+                                    <i class="material-icons pull-right text-dark" @click="closeDrawer()">cancel</i>
+                                </div>
+
+                                <ul type="none">
+                                    <li>
+                                        <a class="unset" href="?currency=LKR">
+                                                    <span>LKR</span>
+                                                </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="hamburger-wrapper" @click="toggleHamburger">
+                            <i class="rango-toggle hamburger"></i>
+                        </div>
+
+                        <logo-component></logo-component>
+                    </div>
+
+                    <div class="right-vc-header col-6">
+
+                        <a class="wishlist-btn unset" :href="`https://www.sarasavi.lk/customer/account/wishlist`">
+                            <div class="badge-container" v-if="wishlistCount > 0">
+                                <span class="badge" v-text="wishlistCount"></span>
+                            </div>
+                            <i class="material-icons">favorite_border</i>
+                        </a>
+
+                        <a class="unset cursor-pointer" @click="openSearchBar">
+                            <i class="material-icons">search</i>
+                        </a>
+
+                        <a href="https://www.sarasavi.lk/checkout/cart" class="unset">
+                            <div class="badge-wrapper">
+                                <span class="badge">{{ cartItemsCount }}</span>
+                            </div>
+                            <i class="material-icons text-down-3">shopping_cart</i>
+                        </a>
+                    </div>
+
+                    <searchbar-component v-if="isSearchbar"></searchbar-component>
+                </div>
+            </div>
+
+            <div id="main-category" @mouseout="toggleSidebar('0', $event, 'mouseout')" @mouseover="toggleSidebar('0', $event, 'mouseover')" :class="`main-category fs16 unselectable fw6 ${($root.sharedRootCategories.length > 0) ? 'cursor-pointer' : 'cursor-not-allowed'} left`">
+
+                <i class="rango-view-list text-down-4 align-vertical-top fs18">
+                </i>
+                <span class="pl5" v-text="heading" @mouseover="toggleSidebar('0', $event, 'mouseover')">
+                </span>
+            </div>
+
+            <div class="content-list right">
+                <ul type="none" class="no-margin">
+                    <li><a href="https://www.sarasavi.lk/">Home</a></li>
+                    <li><a href="https://www.sarasavi.lk/sarasavi-publishers">Sarasavi Publications</a></li>
+                    <li><a href="https://www.sarasavi.lk/categorysearch?publisher=2496&mode=grid">Sumitha Publications</a></li>
+                    <li v-for="(content, index) in headerContent" :key="index">
+                        <a v-text="content.title" :href="`${$root.baseUrl}/${content['page_link']}`" v-if="(content['content_type'] == 'link' || content['content_type'] == 'category')" :target="content['link_target'] ? '_blank' : '_self'">
+                        </a>
+                    </li>
+                    <li><a href="http://catalogue.sarasavi.lk/" target="_blank">Catalogues</a></li>
+
+                    <li><a href="https://www.sarasavi.lk/page/branch-network">Our Branches</a></li>
+
+
+                </ul>
+            </div>
+        </header>
+    </script>
+    <script type="text/javascript">
+        (() => {
+            Vue.component('content-header', {
+                template: '#content-header-template',
+                props: [
+                    'heading',
+                    'headerContent',
+                    'categoryCount',
+                ],
+
+                data: function() {
+                    return {
+                        'compareCount': 0,
+                        'wishlistCount': 0,
+                        'languages': false,
+                        'hamburger': false,
+                        'currencies': false,
+                        'subCategory': null,
+                        'isSearchbar': false,
+                        'rootCategories': true,
+                        'cartItemsCount': '0',
+                        'rootCategoriesCollection': this.$root.sharedRootCategories,
+                        'isCustomer': 'false' == "true",
+                    }
+                },
+
+                watch: {
+                    hamburger: function(value) {
+                        if (value) {
+                            document.body.classList.add('open-hamburger');
+                        } else {
+                            document.body.classList.remove('open-hamburger');
+                        }
+                    },
+
+                    '$root.headerItemsCount': function() {
+                        this.updateHeaderItemsCount();
+                    },
+
+                    '$root.miniCartKey': function() {
+                        this.getMiniCartDetails();
+                    },
+
+                    '$root.sharedRootCategories': function(categories) {
+                        this.formatCategories(categories);
+                    }
+                },
+
+                created: function() {
+                    this.getMiniCartDetails();
+                    this.updateHeaderItemsCount();
+                },
+
+                methods: {
+                    openSearchBar: function() {
+                        this.isSearchbar = !this.isSearchbar;
+
+                        let footer = $('.footer');
+                        let homeContent = $('#home-right-bar-container');
+
+                        if (this.isSearchbar) {
+                            footer[0].style.opacity = '.3';
+                            homeContent[0].style.opacity = '.3';
+                        } else {
+                            footer[0].style.opacity = '1';
+                            homeContent[0].style.opacity = '1';
+                        }
+                    },
+
+                    toggleHamburger: function() {
+                        this.hamburger = !this.hamburger;
+                    },
+
+                    closeDrawer: function() {
+                        $('.nav-container').hide();
+
+                        this.toggleHamburger();
+                        this.rootCategories = true;
+                    },
+
+                    toggleSubcategories: function(index, event) {
+                        if (index == "root") {
+                            this.rootCategories = true;
+                            this.subCategory = false;
+                        } else {
+                            event.preventDefault();
+
+                            let categories = this.$root.sharedRootCategories;
+                            this.rootCategories = false;
+                            this.subCategory = categories[index];
+                        }
+                    },
+
+                    toggleMetaInfo: function(metaKey) {
+                        this.rootCategories = !this.rootCategories;
+
+                        this[metaKey] = !this[metaKey];
+                    },
+
+                    updateHeaderItemsCount: function() {
+                        if (!this.isCustomer) {
+                            let comparedItems = this.getStorageValue('compared_product');
+
+                            if (comparedItems) {
+                                this.compareCount = comparedItems.length;
+                            }
+                        } else {
+                            this.$http.get(`${this.$root.baseUrl}/items-count`)
+                                .then(response => {
+                                    this.compareCount = response.data.compareProductsCount;
+                                    this.wishlistCount = response.data.wishlistedProductsCount;
+                                })
+                                .catch(exception => {
+                                    console.log(this.__('error.something_went_wrong'));
+                                });
+                        }
+                    },
+
+                    getMiniCartDetails: function() {
+                        this.$http.get(`${this.$root.baseUrl}/mini-cart`)
+                            .then(response => {
+                                if (response.data.status) {
+                                    this.cartItemsCount = response.data.mini_cart.cart_items.length;
+                                }
+                            })
+                            .catch(exception => {
+                                console.log(this.__('error.something_went_wrong'));
+                            });
+                    },
+
+                    formatCategories: function(categories) {
+                        let slicedCategories = categories;
+                        let categoryCount = this.categoryCount ? this.categoryCount : 9;
+
+                        if (
+                            slicedCategories &&
+                            slicedCategories.length > categoryCount
+                        ) {
+                            slicedCategories = categories.slice(0, categoryCount);
+                        }
+
+                        this.rootCategoriesCollection = slicedCategories;
+                    },
+                },
+            });
+        })()
+    </script>
+    <script type="text/x-template" id="login-header-template">
+
+        <div class="dropdown">
+            <div id="account">
+
+                <div class="welcome-content pull-right" @click="togglePopup">
+                    <i class="material-icons align-vertical-top">perm_identity</i>
+                    <span class="text-center">
+                                                    Welcome, Guest!
+                        
+                                            </span>
+                    <span class="select-icon rango-arrow-down"></span>
+                </div>
+            </div>
+
+
+
+            <div class="account-modal sensitive-modal hide mt5">
+                <!--Content-->
+                <div class="modal-content">
+                    <!--Header-->
+                    <div class="modal-header no-border pb0">
+                        <label class="fs18 grey">Account</label>
+
+                        <button type="button" class="close disable-box-shadow" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true" class="white-text fs20" @click="togglePopup">×</span>
+                                </button>
+                    </div>
+
+                    <!--Body-->
+                    <div class="pl10 fs14">
+                        <p>Manage Cart, Orders &amp; Wishlist</p>
+                    </div>
+
+                    <!--Footer-->
+                    <div class="modal-footer">
+                        <div>
+                            <a href="https://www.sarasavi.lk/customer/login">
+                                        <button
+                                            type="button"
+                                            class="theme-btn fs14 fw6">
+
+                                            Sign In
+                                        </button>
+                                    </a>
+                        </div>
+
+                        <div>
+                            <a href="https://www.sarasavi.lk/customer/register">
+                                        <button
+                                            type="button"
+                                            class="theme-btn fs14 fw6">
+                                            Sign Up
+                                        </button>
+                                    </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--/.Content-->
+            </div>
+
+
+        </div>
+    </script>
+
+
+    <script type="text/javascript">
+        Vue.component('login-header', {
+            template: '#login-header-template',
+
+            methods: {
+                togglePopup: function(event) {
+                    let accountModal = this.$el.querySelector('.account-modal');
+                    let modal = $('#cart-modal-content')[0];
+
+                    if (modal)
+                        modal.classList.add('hide');
+
+                    accountModal.classList.toggle('hide');
+
+                    event.stopPropagation();
+                }
+            }
+        })
+    </script>
+
+    <script>
+    </script>
+
+</body>
+
+</html>
